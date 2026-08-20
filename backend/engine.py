@@ -89,7 +89,7 @@ class ClaimEngine:
             contradictions.append("Supporting reports detected")
 
        
-        if final_score > 75:
+        if final_score > 65:
             label = "SUPPORTED"
         elif final_score > 50:
             label = "UNCERTAIN"
